@@ -1,0 +1,135 @@
+Compiled from "MergeSort.java"
+public class MergeSort {
+  public MergeSort();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void merge(int[], int[], int, int, int);
+    Code:
+       0: aload_0
+       1: arraylength
+       2: newarray       int
+       4: astore        5
+       6: iload_2
+       7: istore        6
+       9: iload_3
+      10: iconst_1
+      11: iadd
+      12: istore        7
+      14: iload_2
+      15: istore        8
+      17: iload         8
+      19: iload         4
+      21: if_icmpgt     39
+      24: aload         5
+      26: iload         8
+      28: aload_0
+      29: iload         8
+      31: iaload
+      32: iastore
+      33: iinc          8, 1
+      36: goto          17
+      39: iload_2
+      40: istore        8
+      42: iload         8
+      44: iload         4
+      46: if_icmpgt     138
+      49: iload         6
+      51: iload_3
+      52: if_icmple     70
+      55: aload_0
+      56: iload         8
+      58: aload         5
+      60: iload         7
+      62: iinc          7, 1
+      65: iaload
+      66: iastore
+      67: goto          132
+      70: iload         7
+      72: iload         4
+      74: if_icmple     92
+      77: aload_0
+      78: iload         8
+      80: aload         5
+      82: iload         6
+      84: iinc          6, 1
+      87: iaload
+      88: iastore
+      89: goto          132
+      92: aload         5
+      94: iload         7
+      96: iaload
+      97: aload         5
+      99: iload         6
+     101: iaload
+     102: if_icmpgt     120
+     105: aload_0
+     106: iload         8
+     108: aload         5
+     110: iload         7
+     112: iinc          7, 1
+     115: iaload
+     116: iastore
+     117: goto          132
+     120: aload_0
+     121: iload         8
+     123: aload         5
+     125: iload         6
+     127: iinc          6, 1
+     130: iaload
+     131: iastore
+     132: iinc          8, 1
+     135: goto          42
+     138: return
+
+  public static void sort(int[]);
+    Code:
+       0: aload_0
+       1: arraylength
+       2: newarray       int
+       4: astore_1
+       5: aload_0
+       6: iconst_0
+       7: aload_0
+       8: arraylength
+       9: iconst_1
+      10: isub
+      11: invokestatic  #2                  // Method sort:([III)V
+      14: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #3                  // class java/util/Random
+       3: dup
+       4: invokespecial #4                  // Method java/util/Random."<init>":()V
+       7: astore_1
+       8: sipush        150
+      11: newarray       int
+      13: astore_2
+      14: iconst_0
+      15: istore_3
+      16: iload_3
+      17: aload_2
+      18: arraylength
+      19: if_icmpge     35
+      22: aload_2
+      23: iload_3
+      24: aload_1
+      25: invokevirtual #5                  // Method java/util/Random.nextInt:()I
+      28: iastore
+      29: iinc          3, 1
+      32: goto          16
+      35: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      38: aload_2
+      39: invokestatic  #7                  // Method java/util/Arrays.toString:([I)Ljava/lang/String;
+      42: invokevirtual #8                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      45: aload_2
+      46: invokestatic  #9                  // Method sort:([I)V
+      49: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      52: aload_2
+      53: invokestatic  #7                  // Method java/util/Arrays.toString:([I)Ljava/lang/String;
+      56: invokevirtual #8                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      59: return
+}
