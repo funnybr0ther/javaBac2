@@ -89,20 +89,20 @@ public class Tests{
     @Test
     public void testRandom(){
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 4; i++) {
 
             CircularLinkedList<Integer> std = new CircularLinkedList<>(); // student code
             LinkedList<Integer> jdk = new LinkedList<>(); //Java implem
 
-            for (int k = 0; k < 100; k++) {
+            for (int k = 0; k < 5; k++) {
                 int v = rng.get();
                 std.enqueue(v);
                 jdk.add(v);
             }
 
             if (i%2 == 0) {
-                std.remove(10);
-                jdk.remove(10);
+                std.remove(1);
+                jdk.remove(1);
                 std.remove(0);
                 jdk.remove(0);
                 std.remove(std.size()-1);
@@ -115,7 +115,9 @@ public class Tests{
 
             while (jdkIter.hasNext()) {
                 assertTrue(stdIter.hasNext());
-                assertEquals(jdkIter.next(), stdIter.next());
+                int a=jdkIter.next();
+                int b=stdIter.next();
+                assertEquals(a,b);
             }
 
             assertFalse(stdIter.hasNext());
