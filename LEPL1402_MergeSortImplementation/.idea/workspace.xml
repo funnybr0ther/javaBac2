@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96341026-6d79-4593-82cf-7d11875dfc18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/Bac2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/com/EPL/LEPL1402_Introduction/libs/BaseDescription.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/com/EPL/LEPL1402_Introduction/libs/JavaGrading.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/com/EPL/LEPL1402_Introduction/libs/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/com/EPL/LEPL1402_Introduction/libs/jacocoagent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/com/EPL/LEPL1402_Introduction/libs/jacococli.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/com/EPL/LEPL1402_Introduction/libs/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/com/EPL/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/out/production/Bac2/devoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/src/com/EPL/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bac2/src/com/EPL/devoir.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Kadane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kadane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Kadane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Kadane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LEPL1402_Fibonacci" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LEPL1402_StackWithQueue" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -123,6 +103,8 @@
       <workItem from="1571178056923" duration="2377000" />
       <workItem from="1571227996696" duration="599000" />
       <workItem from="1571236078811" duration="732000" />
+      <workItem from="1571388460713" duration="33000" />
+      <workItem from="1571483095611" duration="150000" />
     </task>
     <servers />
   </component>
@@ -141,16 +123,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Kadane.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

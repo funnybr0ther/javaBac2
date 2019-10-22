@@ -8,27 +8,27 @@ public class MergeSort {
      */
 
     public static void merge(int[] a,int[] aux, int lo, int mid, int hi)
-    {   int[] temp = new int[a.length];
+    {   int[] bilibu = new int[a.length];
         int i = lo, j = mid+1;
         for (int k = lo; k <= hi; k++)
             // Copy a[lo..hi] to aux[lo..hi].
-            temp[k] = a[k];
+            bilibu[k] = a[k];
         for (int k
              = lo; k <= hi; k++) // Merge
         if
         (i > mid)
             a[k] =
-                    temp[j++];
+                    bilibu[j++];
         else if
         (j > hi )
             a[k] =
-                    temp[i++];
+                    bilibu[i++];
         else if
-        (temp[j]<=temp[i]) a[k] =
-                    temp[j++];
+        (bilibu[j]<=bilibu[i]) a[k] =
+                    bilibu[j++];
         else
             a[k] =
-                    temp[i++];
+                    bilibu[i++];
     }
 
 
