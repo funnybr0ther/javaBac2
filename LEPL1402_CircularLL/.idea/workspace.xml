@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="213124ea-1ca8-4cdc-b6b4-2e90bac21ab3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LEPL1402_QueueWithStacks/src/main/java/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LEPL1402_QueueWithStacks/src/main/java/MyQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571746063953</updated>
-      <workItem from="1571746066962" duration="14201000" />
+      <workItem from="1571746066962" duration="14616000" />
+      <workItem from="1571764310581" duration="1453000" />
     </task>
     <servers />
   </component>
@@ -78,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

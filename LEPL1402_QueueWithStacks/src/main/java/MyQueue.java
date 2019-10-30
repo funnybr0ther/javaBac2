@@ -17,19 +17,19 @@ public class MyQueue<E> {
     }
 
     public void enqueue(E elem) {
-      //TODO
+        s1.push(elem);
     }
 
     public E dequeue() {
-      //TODO
+      return s1.remove(0);
     }
 
     public E peek() {
-      //TODO
+      return s1.get(0);
     }
 
     public boolean empty() {
-      //TODO
+      return s1.empty();
     }
 
 }
