@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="96341026-6d79-4593-82cf-7d11875dfc18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kadane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Kadane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LEPL1402_TreeInorder/src/main/java/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LEPL1402_TreeInorder/src/main/java/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LEPL1402_TreeInorder/target/classes/Traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LEPL1402_TreeInorder/target/classes/Traversal.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LEPL1402_StackWithQueue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LEPL1402_TreeSame" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kadane">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Kadane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kadane" />
       <module name="LEPL1402_MergeSortImplementation" />
@@ -79,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Kadane" />
         <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Kadane" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +108,9 @@
       <workItem from="1571236078811" duration="732000" />
       <workItem from="1571388460713" duration="33000" />
       <workItem from="1571483095611" duration="150000" />
+      <workItem from="1572536825298" duration="339000" />
+      <workItem from="1572537215705" duration="1037000" />
+      <workItem from="1572883011186" duration="40000" />
     </task>
     <servers />
   </component>
