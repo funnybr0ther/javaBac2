@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96341026-6d79-4593-82cf-7d11875dfc18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LEPL1402_FListMergeSort/src/main/java/FListMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LEPL1402_FListMergeSort/src/main/java/FList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LEPL1402_FListMergeSort/src/main/java/FList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Kadane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Kadane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LEPL1402_TreeInorder/src/main/java/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LEPL1402_TreeInorder/src/main/java/Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LEPL1402_TreeInorder/target/classes/Traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LEPL1402_TreeInorder/target/classes/Traversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeSort.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +38,17 @@
   </component>
   <component name="ProjectId" id="1S18JwMMBbofaFVVaUhn9YOD6Z9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LEPL1402_TreeSame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,18 +56,6 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Kadane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -86,6 +78,18 @@
         <item itemvalue="Application.Kadane" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -111,6 +115,7 @@
       <workItem from="1572536825298" duration="339000" />
       <workItem from="1572537215705" duration="1037000" />
       <workItem from="1572883011186" duration="40000" />
+      <workItem from="1575465448665" duration="4924000" />
     </task>
     <servers />
   </component>

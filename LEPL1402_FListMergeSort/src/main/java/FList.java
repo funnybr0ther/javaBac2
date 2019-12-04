@@ -1,4 +1,4 @@
-package templates;
+
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -6,7 +6,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
     public abstract class FList<A> implements Iterable<A>{
-
+        FList t = this;
         public final boolean isNotEmpty() {
             return this instanceof Cons;
         }
@@ -16,7 +16,7 @@ import java.util.function.Predicate;
         }
 
         public final int length() {
-            //CODE HIDDEN
+
         }
 
         public abstract A head();
@@ -37,15 +37,39 @@ import java.util.function.Predicate;
         public static final class Nil<A> extends FList<A> {
             private static  final Nil<Object> INSTANCE = new Nil();
 
-            //CODE HIDDEN
+            @Override
+            public A head() {
+                throw new NoSuchElementException();
+            }
+
+            @Override
+            public FList<A> tail() {
+                throw new NoSuchElementException();
+            }
+
+
 
         }
 
         public static final class Cons<A> extends FList<A> {
+            public Cons(A head,FList<A> tail) {
+                this.head = head;
+                this.tail = tail;
+            }
 
             private A head;
             private FList<A> tail;
-            
+
+            @Override
+            public A head() {
+                return head;
+            }
+
+            @Override
+            public FList<A> tail() {
+                return tail;
+            }
+
             //CODE HIDDEN
             
         }

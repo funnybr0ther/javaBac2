@@ -10,6 +10,7 @@ public class MergeSort {
     public static void merge(int[] a,int[] aux, int lo, int mid, int hi)
     {   int[] bilibu = new int[a.length];
         int i = lo, j = mid+1;
+
         for (int k = lo; k <= hi; k++)
             // Copy a[lo..hi] to aux[lo..hi].
             bilibu[k] = a[k];
